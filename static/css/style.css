@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 * {
   box-sizing: border-box;
@@ -101,4 +101,61 @@ a:focus {
   outline: none !important;
   -webkit-box-shadow: none;
           box-shadow: none;
+}
+
+
+/* navbar */
+
+.header_section {
+  padding: 15px 0;
+  -webkit-box-direction: normal;
+}
+
+.header_section .container-fluid {
+padding-right: 25px;
+padding-left: 25px;
+}
+
+.navbar-brand {
+font-family: 'Playfair Display', serif;
+}
+
+.navbar-brand span {
+font-weight: bold;
+font-size: 32px;
+color: #000000;
+}
+
+.custom_nav-container {
+padding: 0;
+}
+
+.custom_nav-container .navbar-nav {
+margin-left: auto;
+}
+
+.custom_nav-container .navbar-nav .nav-item .nav-link {
+  padding: 5px 20px;
+  color: #131313;
+  text-align: center;
+  text-transform: uppercase;
+  border-radius: 5px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  font-weight: 700;
+}
+
+.custom_nav-container .navbar-nav .nav-item .nav-link svg {
+width: 17px;
+height: auto;
+fill: #000000;
+margin-bottom: 2px;
+}
+
+.custom_nav-container .navbar-nav .nav-item:hover .nav-link, .custom_nav-container .navbar-nav .nav-item.active .nav-link {
+color: #F7941D;
+}
+
+.custom_nav-container .navbar-nav .nav-item:hover .nav-link svg, .custom_nav-container .navbar-nav .nav-item.active .nav-link svg {
+fill: #F7941D;
 }
