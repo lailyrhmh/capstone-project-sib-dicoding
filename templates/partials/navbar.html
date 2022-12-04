@@ -13,10 +13,10 @@
                   </a>
                  </li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true"> <span class="nav-label">Products <span class="caret"></span></a>
+                    <a class="nav-link dropdown-toggle" href="{{ url_for('views.formMood') }}" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true"> <span class="nav-label">Products <span class="caret"></span></a>
                     <ul class="dropdown-menu">
-                       <li><a href="about.html">D-Mood</a></li>
-                       <li><a href="testimonial.html">D-Recomdation</a></li>
+                       <li><a href="{{ url_for('views.formMood') }}">D-Mood</a></li>
+                       <li><a href="{{ url_for('views.recom') }}">D-Recomdation</a></li>
                     </ul>
                  </li>
                  <li class="nav-item">

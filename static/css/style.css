@@ -224,6 +224,36 @@ fill: #F7941D;
           transform: rotate(90deg);
   top: 0;
 }
+
+li.nav-item ul {
+  background: #fff;
+  border: solid #000 2px;
+  border-radius: 0;
+  padding: 10px 20px;
+  margin-left: 10px;
+  margin-top: 10px;
+  box-shadow: 4px 4px 0px 0 #000;
+  width: 190px;
+}
+
+li.nav-item ul li {
+  float: left;
+  width: 100%;
+  margin: 6px 0;
+}
+
+li.nav-item ul li a {
+  color: #212529;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.2px;
+  margin-top: 10px;
+  transition: ease all 0.5s;
+}
+
+li.nav-item ul li a:hover, li.nav-item ul li a:focus {
+  color: #F7941D;
+}
 /* end navbar */
 
 /* slider */
