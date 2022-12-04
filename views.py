@@ -9,3 +9,7 @@ def home():
 @views.route("/form-mood")
 def formMood():
     return render_template("form-mood.html")
+
+@views.route("/recommendation-activity")
+def recom():
+    return render_template("activity-recomendation.html")
