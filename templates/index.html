@@ -27,7 +27,7 @@
                   How is your mood today? Keep your mood in check to keep your productivity. Improve your mood with activity recommendations that can help you live your beautiful day.
                  </p>
                  <div class="btn-box">
-                    <a href="" class="btn1">
+                    <a href="{{ url_for('views.recommendation') }}" class="btn1">
                     Try Recommendation
                     </a>
                  </div>
@@ -40,10 +40,26 @@
 <section class="layout_padding">
    <div class="container">
       <div class="heading_container heading_center">
-         <h2>
-            Our <span>Missions</span>
-         </h2>
-         <p>Tell us your mood today and get recommendations for mood-boosting activities</p>
+         <div class="container-fluid text-center">
+            <h2>
+               Our <span>Missions</span>
+            </h2>
+            <h4>What we offer</h4>
+            <br>
+            <div class="row">
+              <div class="col-sm-4">
+                <h4>Free to use</h4>
+                <p>You can try this website for free</p>
+              </div>
+              <div class="col-sm-4">
+                <h4>Good mood</h4>
+                <p>You can find activities that suit your mood</p>
+              </div>
+              <div class="col-sm-4">
+                <h4>Best recommendations</h4>
+                <p>You get recommendations for what you can do at that time</p>
+              </div>
+            </div>
       </div>
    </div>
 </section>

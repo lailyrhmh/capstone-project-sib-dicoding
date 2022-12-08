@@ -67,3 +67,7 @@ def get_activities():
     result = activities_recommendation(sub_mood)
     result_str = 'You should eat {}, {}, or {}.'.format(result[0], result[1], result[2])
     return render_template('activity-result.html', result=result_str, sub_mood=sub_mood)
+
+@views.route("/about", methods=['GET'])
+def about():
+    return render_template("about.html")
