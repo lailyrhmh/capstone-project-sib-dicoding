@@ -110,7 +110,7 @@ a:focus {
   background: #fff;
   z-index: 997;
   /* border-bottom: 1px solid #fff6eb; */
-  box-shadow: 0px 2px 15px rgba(247, 149, 29, 0.08);
+  box-shadow: 0px 2px 15px rgba(247, 149, 29, 0.05);
 }
 
 .header_section .header-scrolled {
@@ -268,7 +268,7 @@ li.nav-item ul li a:hover, li.nav-item ul li a:focus {
       -ms-flex-align: center;
           align-items: center;
   position: relative;
-  padding: 90px 0 75px 0;
+  padding: 150px 0 150px 0;
 }
 
 .slider_section .row {
