@@ -1,4 +1,7 @@
 from flask import Blueprint, render_template, abort, request
+
+views = Blueprint(__name__, "views")
+
 import nltk
 nltk.download('wordnet')
 nltk.download('stopwords')
