@@ -71,9 +71,7 @@
   -webkit-transform: translateY(0);
           transform: translateY(0);
 }
-.arrival_section {
-    background-color: #f7951d;
-}
+
 .product_section .option_container {
   position: absolute;
   top: 0;
