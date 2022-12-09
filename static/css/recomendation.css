@@ -114,6 +114,17 @@
   margin: 5px 0;
 }
 
+.product_section .options button {
+  display: inline-block;
+  padding: 8px 15px;
+  border-radius: 30px;
+  width: 165px;
+  text-align: center;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+  margin: 5px 0;
+}
+
 .product_section .options .option {
   background-color: #f7951d;
   border: 1px solid #f7951d;
