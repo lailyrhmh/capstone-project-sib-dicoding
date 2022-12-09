@@ -2,79 +2,85 @@
 
 {% block content %}
 
-<section class="product_section layout_padding">
-    <div class="container">
-       <div class="heading_container heading_center">
-         <h3>
-            We are Team C22-127
-         </h3>
-      </div>
-      <div class="box" onclick="find('focused')">
-         <div class="row">
-            <!-- <div class="col-md-6 offset-md-3">
-              <form action="">
-                 <input type="text" placeholder="choose mood you need">
-                 <button>
-                 Check
-                 </button>
-              </form>
-            </div> -->
+<section id="team" class="team section-bg layout_padding-bottom">
+   <div class="container" data-aos="fade-up">
 
-            <div class="col-lg-6">
-               <div class="box">
-                  <div class="detail-box">
-                     <h5>
-                        Laily Rachmah
-                     </h5>
-                     <h6>
-                        M247Y0506
-                     </h6>
-                     <img width="100" src="{{ url_for('static', filename='img/Laily.jpg') }}" alt="#" />
-                  </div>
-               </div>
-            </div>
-            <div class="col-lg-6">
-               <div class="box">
-                  <div class="detail-box">
-                     <h5>
-                        Nurul Tazkiyah Adam
-                     </h5>
-                     <h6>
-                        M494Y1034
-                     </h6>
-                     <img width="100" src="{{ url_for('static', filename='img/Kiyah.jpg') }}" alt="#" />
-                  </div>
-               </div>
-            </div>
-            <div class="col-lg-6">
-               <div class="box">
-                  <div class="detail-box">
-                     <h5>
-                        Amazida
-                     </h5>
-                     <h6>
-                        M247Y0501
-                     </h6>
-                     <img width="100" src="{{ url_for('static', filename='img/Zida.jpg') }}" alt="#" />
-                  </div>
-               </div>
-            </div>
-            <div class="col-lg-6">
-                <div class="box">
-                   <div class="detail-box">
-                      <h5>
-                         Putu Ayu Novia Aryanti
-                      </h5>
-                      <h6>
-                        M014Y0131
-                      </h6>
-                      <img width="100" src="{{ url_for('static', filename='img/Novi.jpg') }}" alt="#" />
-                   </div>
-                </div>
-             </div>
-         </div>
+
+      <div class="heading_container heading_center layout_padding">
+         <h2>
+            We are Team <span>C22-127</span>
+         </h2>
       </div>
-    </div>
-</section>
+
+     <div class="row">
+
+       <div class="col-lg-3 col-md-4 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
+         <div class="member">
+           <div class="member-img">
+             <img src="../static/img/Laily.jpg" class="img-fluid" alt="">
+             <div class="social">
+               <a href=""><i class="bi bi-github"></i></a>
+               <a href=""><i class="bi bi-linkedin"></i></a>
+             </div>
+           </div>
+           <div class="member-info">
+             <h4>Laily Rachmah</h4>
+             <span>M247Y0506</span>
+           </div>
+         </div>
+       </div>
+
+       <div class="col-lg-3 col-md-4 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
+         <div class="member">
+           <div class="member-img">
+             <img src="../static/img/Zida.jpg" class="img-fluid" alt="">
+             <div class="social">
+               <a href=""><i class="bi bi-github"></i></a>
+               <a href=""><i class="bi bi-linkedin"></i></a>
+             </div>
+           </div>
+           <div class="member-info">
+             <h4>Amazida</h4>
+             <span>M247Y0501</span>
+           </div>
+         </div>
+       </div>
+
+       <div class="col-lg-3 col-md-4 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
+         <div class="member">
+           <div class="member-img">
+             <img src="../static/img/Kiyah.jpg" class="img-fluid" alt="">
+             <div class="social">
+               <a href=""><i class="bi bi-github"></i></a>
+               <a href=""><i class="bi bi-linkedin"></i></a>
+             </div>
+           </div>
+           <div class="member-info">
+             <h4>Nurul Tazkiyah Adam</h4>
+             <span>M494Y1034</span>
+           </div>
+         </div>
+       </div>
+
+       <div class="col-lg-3 col-md-4 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="400">
+         <div class="member">
+           <div class="member-img">
+             <img src="../static/img/Novi.jpg" class="img-fluid" alt="">
+             <div class="social">
+               <a href=""><i class="bi bi-github"></i></a>
+               <a href=""><i class="bi bi-linkedin"></i></a>
+             </div>
+           </div>
+           <div class="member-info">
+             <h4>Putu Ayu Novia Aryanti</h4>
+             <span>M014Y0131</span>
+           </div>
+         </div>
+       </div>
+
+     </div>
+
+   </div>
+ </section>
 
 {% endblock %}
