@@ -5,8 +5,8 @@
 .product_section .box {
     position: relative;
     margin-top: 25px;
-    padding: 35px 35px;
-    background-color: rgb(247, 149, 29, .1);
+    padding: 25px 25px;
+    background-color: #f7f8f9;
     -webkit-transition: all .3s;
     transition: all .3s;
     overflow: hidden;
@@ -24,7 +24,16 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  height: 215px;
+  height: 170px;
+}
+
+.product_section .box .img-box img {
+  max-width: 100%;
+  max-height: 160px;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+  /* font-size: 6rem;
+  color: #002c3e; */
 }
 
 .product_section .box .img-box i {
@@ -32,7 +41,7 @@
   max-height: 160px;
   -webkit-transition: all .3s;
   transition: all .3s;
-  font-size: 10rem;
+  font-size: 6rem;
   color: #002c3e;
 }
 
