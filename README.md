@@ -7,7 +7,43 @@ Proyek ini dirancang untuk membangun website yang dapat digunakan untuk menghasi
 <img src="https://user-images.githubusercontent.com/75351301/206583720-f5e08a63-4d31-41d6-8500-a3e7b252b111.png" width="100%">
 
 
+langkah-langkah berikut merupakan cara untuk menjalankan app pada local:
+
+1. Clone repository ini dengan cara mengetikan perintah di bawah pada terminal.
+
+```markdown
+git clone https://github.com/lailyrhmh/capstone-project-sib-dicoding.git
+```
+
+2. Lalu install environment dengan cara mengetikan perintah di bawah.
+
+```markdown
+virtualenv app-venv
+```
+
+3. install requirements yang dibutuhkan.
+
+```markdown
+pip install -r requirements.txt
+```
+
+4. jalankan dengan perintah.
+
+```markdown
+flask run
+```
+
+atau
+
+```markdown
+python app.py
+```
+
+5. untuk menghentikan program dapat menekan `ctrl + C` pada terminal yang digunakan
+
+
 <hr>
+
 ## Credits :
 
 1. Dataset 
