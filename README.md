@@ -60,8 +60,10 @@ python app.py
 
 3. Library & Bahasa Pemrograman
 <br>
+<a href="https://fontawesome.com/"><img src="https://raw.githubusercontent.com/nurullzzz/recom_film/main/font%20awesome.png" width="100px"></a>
+<a href="https://matplotlib.org"><img src="https://raw.githubusercontent.com/nurullzzz/recom_film/main/matpolipd.png" width="100px"></a>
 <a href="https://numpy.org"><img src="https://raw.githubusercontent.com/onedayxzn/submission_file/master/Numpy.png" width="100px"></a>
-<a href="https://pandas.pydata.org"><img src="https://raw.githubusercontent.com/onedayxzn/submission_file/397ce5b76f038ad649c7cd32f4b0dba3643c5c92/pandas_white.svg" width="100px"></a>
+<a href="https://pandas.pydata.org"><img src="https://raw.githubusercontent.com/nurullzzz/recom_film/main/pandas.png" width="100px"></a>
 <a href="https://www.nltk.org/"><img src="https://raw.githubusercontent.com/nurullzzz/recom_film/main/nltk.png" width="50px"></a>
 <a href="https://www.python.org/"><img src="https://raw.githubusercontent.com/nurullzzz/recom_film/main/py.png" width="90px"></a>
 <a href="https://www.javascript.com/"><img src="https://raw.githubusercontent.com/nurullzzz/recom_film/main/jss.png" width="65px"></a>
