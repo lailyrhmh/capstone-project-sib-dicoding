@@ -6,8 +6,11 @@ Proyek ini dirancang untuk membangun website yang dapat digunakan untuk menghasi
 
 <img src="https://user-images.githubusercontent.com/75351301/206583720-f5e08a63-4d31-41d6-8500-a3e7b252b111.png" width="100%">
 
+[Moodies dapat diakses langsung melalui tautan ini](https://moodies.pythonanywhere.com/)
 
-langkah-langkah berikut merupakan cara untuk menjalankan app pada local:
+
+
+Adapun langkah-langkah berikut merupakan cara untuk menjalankan app pada local:
 
 1. Clone repository ini dengan cara mengetikan perintah di bawah pada terminal.
 
